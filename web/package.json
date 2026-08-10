@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "postinstall": "node scripts/copy-wasm.mjs",
+    "postinstall": "node build-scripts/copy-wasm.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
